@@ -10,6 +10,18 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "var(--primary)",
+        "primary-light": "var(--primary-light)",
+        secondary: "var(--secondary)",
+      },
+      screens: {
+        'xs': '475px',
+        // Tailwind's defaults will handle the rest:
+        // 'sm': '640px',
+        // 'md': '768px',
+        // 'lg': '1024px',
+        // 'xl': '1280px',
+        // '2xl': '1536px',
       },
     },
   },
